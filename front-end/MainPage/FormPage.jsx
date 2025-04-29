@@ -45,6 +45,17 @@ function FormPage() {
             <div className="general-div">
                 <div className="content-div">
 
+                    {/* Adicionando teste com elementos ao lado esquerdo */}
+                    <div className="element-left">
+                        <div className="content-element-left">
+                            <h1>TESTETESTETESTETESTETESTETESTETESTETESTE</h1>
+                            <h1>TESTETESTETESTETESTETESTETESTETESTETESTE</h1>
+                            <h1>TESTETESTETESTETESTETESTETESTETESTETESTE</h1>
+                            <h1>TESTETESTETESTETESTETESTETESTETESTETESTE</h1>
+                        </div>
+                    </div>
+                    {/*  */}
+
                     <div className="form">
 
                         <div className="title-chat">
