@@ -1,0 +1,112 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+.general-div {
+    width: 100%;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #1b1d1c;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.content-div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 1750px;
+    height: 650px;
+    padding: 30px;
+    border: 3px solid #323336;
+    font-family: 'Arial', sans-serif;
+    color: white;
+}
+
+.form {
+    width: 700px;
+    height: 596px;
+    margin-left: 40px;
+    border-radius: 25px;
+    border: 2px solid #323336;
+}
+
+.title-chat {
+    display: flex;
+    width: 100%;
+    height: 85px;
+    padding: 20px;
+    background-color: #1b1d1c;
+    border-top-left-radius: 23px;
+    border-top-right-radius: 23px;
+}
+
+.content-chat {
+    width: 697px;
+    height: 441px;
+    background-color: #dce3eb;
+    transition: 0.6s;
+}
+
+.overlay-bloqueado {
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 500px;
+    background: transparent;
+    cursor: not-allowed;
+    z-index: 10;
+}
+
+.div-mensagem-bot {
+    padding: 15px;
+    width: 200px;
+    margin-left: 10px;
+    border-radius: 15px;
+    background-color: #323336;
+    margin-bottom: 10px;
+    
+}
+
+/* Esse pedaço de código está sendo responsável por colocar o scroll na div chat-messages */
+.chat-messages {
+    max-height: 441px;
+    overflow-y: auto;
+    padding-right: 10px;
+}
+/*  */
+
+.div-input {
+    width: 100%;
+    height: 66px;
+    display: flex;
+    border-bottom-left-radius: 23px;
+    border-bottom-right-radius: 23px;
+    background-color: #1b1d1c;
+}
+
+/* Footer */
+.footer {
+    width: 100%;
+    height: 90px;
+    background-color: #323336;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 40px;
+    box-sizing: border-box;
+}
+/*  */
